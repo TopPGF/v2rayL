@@ -1,0 +1,51 @@
+==> log/v2ray.log <==
+2020/11/25 12:15:37 [Warning] [3193733594] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:15:37 [Warning] [2509645599] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:16:17 127.0.0.1:56210 accepted //codeload.github.com:443 
+2020/11/25 12:16:20 [Warning] [3843003338] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:16:22 tcp:127.0.0.1:52612 accepted tcp:api.twitter.com:443 
+2020/11/25 12:16:24 tcp:127.0.0.1:52622 accepted tcp:api.twitter.com:443 
+2020/11/25 12:16:24 tcp:127.0.0.1:52620 accepted tcp:api.twitter.com:443 
+2020/11/25 12:16:25 [Warning] [4028426210] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:16:26 [Warning] [1362025396] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:16:27 [Warning] [3312952470] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:17:15 tcp:127.0.0.1:52856 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:15 tcp:127.0.0.1:52860 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:15 tcp:127.0.0.1:52858 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:15 tcp:127.0.0.1:52854 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:17 [Warning] [1943201218] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:17:17 [Warning] [318234996] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:17:17 [Warning] [2485864650] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:17:21 [Warning] [688199806] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:17:24 tcp:127.0.0.1:52948 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:24 tcp:127.0.0.1:52946 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:26 [Warning] [1732688632] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+2020/11/25 12:17:27 [Warning] [3560936199] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://13.75.68.228/v2ray):  > remote error: tls: internal error] > v2ray.com/core/common/retry: all retry attempts failed
+V2Ray 4.31.0 (V2Fly, a community-driven edition of V2Ray.) Custom (go1.15.2 linux/amd64)
+A unified platform for anti-censorship.
+2020/11/25 12:17:34 Using default config:  /home/pgf/app/v2ray/config.json
+2020/11/25 12:17:35 [Info] v2ray.com/core/common/platform/ctlcmd: <v2ctl message> 
+v2ctl> Read config:  /home/pgf/app/v2ray/config.json
+2020/11/25 12:17:35 [Warning] v2ray.com/core: V2Ray 4.31.0 started
+2020/11/25 12:17:39 tcp:127.0.0.1:53006 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:39 tcp:127.0.0.1:53002 accepted tcp:api.twitter.com:443 
+2020/11/25 12:17:39 tcp:127.0.0.1:53004 accepted tcp:api.twitter.com:443 
+2020/11/25 12:19:19 tcp:127.0.0.1:53046 accepted tcp:www.youtube.com:443 
+2020/11/25 12:19:21 tcp:127.0.0.1:53050 accepted tcp:i.ytimg.com:443 
+2020/11/25 12:19:21 tcp:127.0.0.1:53054 accepted tcp:fonts.gstatic.com:443 [direct] 
+2020/11/25 12:19:22 tcp:127.0.0.1:53062 accepted tcp:yt3.ggpht.com:443 
+2020/11/25 12:19:22 tcp:127.0.0.1:53058 accepted tcp:yt3.ggpht.com:443 
+2020/11/25 12:19:22 tcp:127.0.0.1:53060 accepted tcp:yt3.ggpht.com:443 
+2020/11/25 12:19:23 tcp:127.0.0.1:53076 accepted tcp:lh5.googleusercontent.com:443 
+2020/11/25 12:30:02 tcp:127.0.0.1:53260 accepted tcp:www.youtube.com:443 
+2020/11/25 12:46:32 tcp:127.0.0.1:53464 accepted tcp:www.youtube.com:443 
+2020/11/25 12:46:33 tcp:127.0.0.1:53468 accepted tcp:i.ytimg.com:443 
+2020/11/25 12:46:33 tcp:127.0.0.1:53472 accepted tcp:i.ytimg.com:443 
+2020/11/25 12:46:33 [Warning] [3929778930] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/vmess/outbound: connection ends > v2ray.com/core/proxy/vmess/outbound: failed to read header > v2ray.com/core/proxy/vmess/encoding: failed to read response header > websocket: close 1000 (normal)
+2020/11/25 12:46:34 tcp:127.0.0.1:53480 accepted tcp:yt3.ggpht.com:443 
+2020/11/25 12:46:34 tcp:127.0.0.1:53476 accepted tcp:yt3.ggpht.com:443 
+2020/11/25 12:46:34 tcp:127.0.0.1:53478 accepted tcp:yt3.ggpht.com:443 
+2020/11/25 12:46:35 tcp:127.0.0.1:53494 accepted tcp:lh5.googleusercontent.com:443 
+2020/11/25 12:47:34 tcp:127.0.0.1:53606 accepted tcp:www.gstatic.com:443 [direct] 
+2020/11/25 12:47:34 tcp:127.0.0.1:53610 accepted tcp:clients1.google.com:443 
+2020/11/25 12:48:31 tcp:127.0.0.1:53732 accepted tcp:r5---sn-2x3eln7d.gvt1.com:443 [direct] 

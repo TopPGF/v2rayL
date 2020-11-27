@@ -1,0 +1,87 @@
+{
+	"log": {
+		"loglevel": "warning"
+	},
+	"inbounds": [
+		{
+			"port": 1080,
+			"protocol": "socks",
+			"settings": {
+				"udp": true
+			}
+		},
+		{
+			"port": 1081,
+			"protocol": "http",
+			"settings": {
+				"udp": true
+			}
+		}
+	],
+	"outbounds": [
+		{
+			"protocol": "vmess",
+			"settings": {
+				"vnext": [
+					{
+						"address": "75.2.118.127",
+						"port": 40203,
+						"users": [
+							{
+								"id": "91099f8a-b72a-3b1b-9f12-cdc0d255c583",
+								"alterId": 2,
+								"security": "aes-256-gcm"
+							}
+						]
+					}
+				]
+			},
+			"streamSettings": {
+				"network": "ws",
+				"security": "",
+				"tlsSettings": null,
+				"kcpSettings": null,
+				"wsSettings": {
+					"path": "/honda",
+					"headers": {
+						"Host": "75.2.118.127"
+					}
+				},
+				"httpSettings": null,
+				"quicSettings": null,
+				"mux": {
+					"enabled": true,
+					"concurrency": 8
+				}
+			}
+		},
+		{
+			"protocol": "freedom",
+			"settings": {},
+			"tag": "direct"
+		}
+	],
+	"routing": {
+		"strategy": "rules",
+		"settings": {
+			"domainStrategy": "IPIfNonMatch",
+			"rules": [
+				{
+					"type": "field",
+					"outboundTag": "direct",
+					"domain": [
+						"geosite:cn"
+					]
+				},
+				{
+					"type": "field",
+					"outboundTag": "direct",
+					"ip": [
+						"geoip:cn",
+						"geoip:private"
+					]
+				}
+			]
+		}
+	}
+}

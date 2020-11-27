@@ -1,0 +1,74 @@
+{
+  "log": {
+    "loglevel": "{{loglevel}}"
+  },
+  "inbounds": [
+    {
+      "port": {{socksPort}},
+      "protocol": "socks",
+      "settings": {
+		"udp": {{udp}}
+      }
+    },
+    {
+      "port": {{httpPort}},
+      "protocol": "http",
+      "settings": {
+		"udp": {{udp}}
+      }
+    }
+  ],
+  "outbounds": [ 
+	{
+    "protocol": "vmess",
+    "settings": {
+      "vnext": [
+        {
+          "address": "{{address}}",
+          "port": {{serverPort}},
+          "users": [
+            {
+              "id": "{{uuid}}",
+              "alterId": {{aid}},
+              "security": "{{security}}"
+            }
+          ]
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "{{network}}",
+      "security": "{{streamSecurity}}",
+      "tlsSettings": {{tls}},
+      "kcpSettings": {{kcp}},
+      "wsSettings": {{ws}},
+      "httpSettings": {{http}},
+      "quicSettings": {{quic}},
+	  "mux": {
+  		"enabled": {{mux}},
+      	"concurrency": {{concurrency}}
+      }
+    }
+  	},
+    {
+      "protocol": "freedom",
+      "settings": {},
+      "tag": "direct"
+    }
+  ],
+  "routing": {
+		"strategy": "rules",
+			"settings": {
+			"domainStrategy": "IPIfNonMatch",
+				"rules": [{{china_sites}}
+					{
+    			    "type": "field",
+    			    "outboundTag": "direct",
+     			    "ip": [{{china_ip}}
+       				    "geoip:private"
+					]
+				}
+			]
+		}
+	}
+}
